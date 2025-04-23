@@ -1,0 +1,64 @@
+{
+"connector": "and",
+"conditions": [
+    {
+        "name" : "codeEtablissement",
+        "operator" : "==",
+        "key": "Identifiant_de_l_etablissement" ,
+        "value" : "0921549J" 
+    },
+    
+    {
+        "name" : "estPublic",
+        "operator" : "==",
+        "key": "Statut_public_prive" ,
+        "value" : "Public" 
+    },
+    {
+        "name" : "academie",
+        "operator" : "==",
+        "key": "Libelle_academie" ,
+        "value" : "Versailles" 
+    },
+    {
+        "name" : "niveau",
+        "operator" : "isin",
+        "key": "Type_etablissement" ,
+        "value" : ["Collège"] 
+    },
+    {
+        "name": "ville",
+        "operator" : "isin",
+        "key": "Nom_commune" ,
+        "value" : ["Courbevoie"]
+    },
+    {
+        "name": "pasLyceePro",
+        "connector": "not",
+        "condition": 
+            {
+                "connector": "and",
+                "conditions": [
+                    {
+                        "operator": "==",
+                        "key": "Type_etablissement",
+                        "value": "Lycée"
+                    },
+                    {
+                        "operator": "==",
+                        "key": "Voie_generale",
+                        "value": 0,
+                        "valueIfNull": -1
+                    }
+                ]
+            }
+        
+    }
+
+
+
+]
+}
+
+
+

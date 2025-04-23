@@ -1,0 +1,56 @@
+{
+    "connector": "and",
+    "conditions": [
+        {
+            "name" : "estPublic",
+            "operator" : "==",
+            "key": "Statut_public_prive" ,
+            "value" : "Public" 
+        },
+        {
+            "name" : "academie",
+            "operator" : "==",
+            "key": "Libelle_academie" ,
+            "value" : "Versailles" 
+        },
+        {
+            "name" : "departement",
+            "operator" : "==",
+            "key": "Code_departement" ,
+            "value" : "078" 
+        },
+        {
+            "name" : "niveau",
+            "operator" : "isin",
+            "key": "Type_etablissement" ,
+            "value" : ["Lycée"] 
+        },
+        {
+            "name": "pasLyceePro",
+            "connector": "not",
+            "condition": 
+                {
+                    "connector": "and",
+                    "conditions": [
+                        {
+                            "operator": "==",
+                            "key": "Type_etablissement",
+                            "value": "Lycée"
+                        },
+                        {
+                            "operator": "==",
+                            "key": "Voie_generale",
+                            "value": 0,
+                            "valueIfNull": -1
+                        }
+                    ]
+                }
+            
+        }   
+    
+    ]
+    }
+    
+    
+    
+    

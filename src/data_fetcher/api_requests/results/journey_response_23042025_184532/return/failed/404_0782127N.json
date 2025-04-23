@@ -1,0 +1,17 @@
+{
+    "error": {
+        "id": "no_origin",
+        "message": "Public transport is not reachable from origin"
+    },
+    "feed_publishers": [],
+    "links": [],
+    "tickets": [],
+    "disruptions": [],
+    "terminus": [],
+    "context": {
+        "current_datetime": "20250423T184627",
+        "timezone": "Europe/Paris"
+    },
+    "notes": [],
+    "exceptions": []
+}

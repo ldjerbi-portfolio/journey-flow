@@ -1,0 +1,30 @@
+{
+    "error": {
+        "id": "no_solution",
+        "message": "no solution found for this journey"
+    },
+    "feed_publishers": [],
+    "links": [],
+    "tickets": [],
+    "disruptions": [],
+    "terminus": [],
+    "context": {
+        "car_direct_path": {
+            "co2_emission": {
+                "value": 3100.2312166352,
+                "unit": "gEC"
+            },
+            "air_pollutants": {
+                "unit": "g",
+                "values": {
+                    "nox": 5.508,
+                    "pm": 0.701
+                }
+            }
+        },
+        "current_datetime": "20250423T184605",
+        "timezone": "Europe/Paris"
+    },
+    "notes": [],
+    "exceptions": []
+}

@@ -1,0 +1,17 @@
+{
+    "error": {
+        "id": "no_destination",
+        "message": "Public transport is not reachable from destination"
+    },
+    "feed_publishers": [],
+    "links": [],
+    "tickets": [],
+    "disruptions": [],
+    "terminus": [],
+    "context": {
+        "current_datetime": "20250423T184556",
+        "timezone": "Europe/Paris"
+    },
+    "notes": [],
+    "exceptions": []
+}

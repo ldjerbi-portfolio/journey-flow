@@ -1,0 +1,3402 @@
+{
+    "feed_publishers": [
+        {
+            "id": "IDFM:idfm_netex",
+            "name": "idfm_netex",
+            "url": "",
+            "license": "private"
+        },
+        {
+            "id": "IDFM:transilien_netex",
+            "name": "transilien_netex",
+            "url": "",
+            "license": "private"
+        }
+    ],
+    "links": [
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/journeys?datetime=20250424T090819&datetime_represents=departure&from=2.2366511276612218;48.892325849792655&max_bike_duration_to_pt=0&max_bss_duration_to_pt=0&max_car_duration_to_pt=0&max_duration_to_pt=600&max_ridesharing_duration_to_pt=0&timeframe-duration=900&to=2.0620244126996594;48.946813146880004&walking_speed=1.1111111111111112",
+            "templated": false,
+            "rel": "next",
+            "type": "next"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/journeys?datetime=20250424T095436&datetime_represents=arrival&from=2.2366511276612218;48.892325849792655&max_bike_duration_to_pt=0&max_bss_duration_to_pt=0&max_car_duration_to_pt=0&max_duration_to_pt=600&max_ridesharing_duration_to_pt=0&timeframe-duration=900&to=2.0620244126996594;48.946813146880004&walking_speed=1.1111111111111112",
+            "templated": false,
+            "rel": "prev",
+            "type": "prev"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/journeys?datetime=20250424T000000&datetime_represents=departure&from=2.2366511276612218;48.892325849792655&max_bike_duration_to_pt=0&max_bss_duration_to_pt=0&max_car_duration_to_pt=0&max_duration_to_pt=600&max_ridesharing_duration_to_pt=0&timeframe-duration=900&to=2.0620244126996594;48.946813146880004&walking_speed=1.1111111111111112",
+            "templated": false,
+            "rel": "first",
+            "type": "first"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/journeys?datetime=20250424T235959&datetime_represents=arrival&from=2.2366511276612218;48.892325849792655&max_bike_duration_to_pt=0&max_bss_duration_to_pt=0&max_car_duration_to_pt=0&max_duration_to_pt=600&max_ridesharing_duration_to_pt=0&timeframe-duration=900&to=2.0620244126996594;48.946813146880004&walking_speed=1.1111111111111112",
+            "templated": false,
+            "rel": "last",
+            "type": "last"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/addresses/{address.id}",
+            "templated": true,
+            "rel": "addresses",
+            "type": "address"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/disruptions/{disruptions.id}",
+            "templated": true,
+            "rel": "disruptions",
+            "type": "disruptions"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/vehicle_journeys/{vehicle_journey.id}",
+            "templated": true,
+            "rel": "vehicle_journeys",
+            "type": "vehicle_journey"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/routes/{route.id}",
+            "templated": true,
+            "rel": "routes",
+            "type": "route"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/disruptions/{disruption.id}",
+            "templated": true,
+            "rel": "disruptions",
+            "type": "disruption"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/stop_areas/{stop_area.id}",
+            "templated": true,
+            "rel": "stop_areas",
+            "type": "stop_area"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/physical_modes/{physical_mode.id}",
+            "templated": true,
+            "rel": "physical_modes",
+            "type": "physical_mode"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/stop_points/{stop_point.id}",
+            "templated": true,
+            "rel": "stop_points",
+            "type": "stop_point"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/networks/{network.id}",
+            "templated": true,
+            "rel": "networks",
+            "type": "network"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/commercial_modes/{commercial_mode.id}",
+            "templated": true,
+            "rel": "commercial_modes",
+            "type": "commercial_mode"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines/{line.id}",
+            "templated": true,
+            "rel": "lines",
+            "type": "line"
+        }
+    ],
+    "journeys": [
+        {
+            "duration": 2779,
+            "nb_transfers": 1,
+            "departure_date_time": "20250424T090818",
+            "arrival_date_time": "20250424T095437",
+            "requested_date_time": "20250424T090000",
+            "type": "best",
+            "status": "",
+            "tags": [
+                "walking",
+                "ecologic"
+            ],
+            "co2_emission": {
+                "value": 361.5603199468,
+                "unit": "gEC"
+            },
+            "air_pollutants": {
+                "unit": "g",
+                "values": {
+                    "nox": 0.0,
+                    "pm": 0.0
+                }
+            },
+            "durations": {
+                "total": 2779,
+                "walking": 455,
+                "bike": 0,
+                "car": 0,
+                "ridesharing": 0,
+                "taxi": 0
+            },
+            "distances": {
+                "walking": 247,
+                "bike": 0,
+                "car": 0,
+                "ridesharing": 0,
+                "taxi": 0
+            },
+            "fare": {
+                "found": true,
+                "total": {
+                    "value": "450.0",
+                    "currency": "centime"
+                },
+                "links": [
+                    {
+                        "templated": false,
+                        "rel": "tickets",
+                        "internal": true,
+                        "type": "ticket",
+                        "id": "ticket_1_1"
+                    },
+                    {
+                        "templated": false,
+                        "rel": "tickets",
+                        "internal": true,
+                        "type": "ticket",
+                        "id": "ticket_2_1"
+                    }
+                ]
+            },
+            "calendars": [
+                {
+                    "week_pattern": {
+                        "monday": false,
+                        "tuesday": false,
+                        "wednesday": false,
+                        "thursday": true,
+                        "friday": false,
+                        "saturday": false,
+                        "sunday": false
+                    },
+                    "active_periods": [
+                        {
+                            "begin": "20250424",
+                            "end": "20250424"
+                        }
+                    ]
+                }
+            ],
+            "sections": [
+                {
+                    "id": "m8Hph2WFBQGWZGaaHyP9fS_1",
+                    "duration": 166,
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": "gEC"
+                    },
+                    "departure_date_time": "20250424T090818",
+                    "arrival_date_time": "20250424T091104",
+                    "to": {
+                        "id": "stop_point:IDFM:monomodalStopPlace:470549",
+                        "name": "La Défense (Puteaux)",
+                        "quality": 0,
+                        "stop_point": {
+                            "id": "stop_point:IDFM:monomodalStopPlace:470549",
+                            "name": "La Défense",
+                            "codes": [
+                                {
+                                    "type": "netex_monomodal_stopplace",
+                                    "value": "monomodalStopPlace:470549"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "40951"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "470974"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "472137"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "472283"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473934"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473935"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473936"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473937"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "484165"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "484166"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "monomodalStopPlace:470549"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::monomodalStopPlace:470549:FR1"
+                                }
+                            ],
+                            "label": "La Défense (Puteaux)",
+                            "coord": {
+                                "lon": "2.238418596250407",
+                                "lat": "48.89222980156821"
+                            },
+                            "links": [],
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:fr:92062",
+                                    "name": "Puteaux",
+                                    "level": 8,
+                                    "zip_code": "92800",
+                                    "label": "Puteaux (92800)",
+                                    "insee": "92062",
+                                    "coord": {
+                                        "lon": "2.2368863",
+                                        "lat": "48.8841522"
+                                    }
+                                }
+                            ],
+                            "stop_area": {
+                                "id": "stop_area:IDFM:71517",
+                                "name": "La Défense",
+                                "codes": [
+                                    {
+                                        "type": "TN_PA",
+                                        "value": "252"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::multimodalStopPlace:71517:FR1"
+                                    }
+                                ],
+                                "timezone": "Europe/Paris",
+                                "label": "La Défense (Puteaux)",
+                                "coord": {
+                                    "lon": "2.239764201537217",
+                                    "lat": "48.89161331499386"
+                                },
+                                "links": []
+                            },
+                            "equipments": [
+                                "has_wheelchair_boarding"
+                            ],
+                            "address": {
+                                "id": "2.238418596250407;48.892229801568206",
+                                "name": "Parvis de la Défense",
+                                "house_number": 2,
+                                "coord": {
+                                    "lon": "2.238418596250407",
+                                    "lat": "48.89222980156821"
+                                },
+                                "label": "2 Parvis de la Défense (Puteaux)"
+                            },
+                            "fare_zone": {
+                                "name": "3"
+                            }
+                        },
+                        "embedded_type": "stop_point"
+                    },
+                    "from": {
+                        "id": "2.235874;48.892565",
+                        "name": "1 Le Parvis (Puteaux)",
+                        "quality": 0,
+                        "embedded_type": "address",
+                        "address": {
+                            "id": "2.235874;48.892565",
+                            "coord": {
+                                "lon": "2.2366511276612218",
+                                "lat": "48.892325849792655"
+                            },
+                            "house_number": 1,
+                            "label": "1 Le Parvis (Puteaux)",
+                            "name": "1 Le Parvis",
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:osm:relation:7449",
+                                    "insee": "92",
+                                    "name": "Hauts-de-Seine",
+                                    "label": "Hauts-de-Seine",
+                                    "level": 6,
+                                    "coord": {
+                                        "lon": "2.2071267",
+                                        "lat": "48.892427299999994"
+                                    },
+                                    "zip_code": null
+                                },
+                                {
+                                    "id": "admin:osm:relation:8649",
+                                    "insee": "11",
+                                    "name": "Île-de-France",
+                                    "label": "Île-de-France",
+                                    "level": 4,
+                                    "coord": {
+                                        "lon": "2.3483915",
+                                        "lat": "48.8534951"
+                                    },
+                                    "zip_code": null
+                                },
+                                {
+                                    "id": "admin:osm:relation:2202162",
+                                    "insee": "",
+                                    "name": "France",
+                                    "label": "France",
+                                    "level": 2,
+                                    "coord": {
+                                        "lon": "2.3483915",
+                                        "lat": "48.8534951"
+                                    },
+                                    "zip_code": null
+                                },
+                                {
+                                    "id": "admin:fr:92062",
+                                    "insee": "92062",
+                                    "name": "Puteaux",
+                                    "label": "Puteaux (92800)",
+                                    "level": 8,
+                                    "coord": {
+                                        "lon": "2.2368863",
+                                        "lat": "48.8841522"
+                                    },
+                                    "zip_code": "92800"
+                                }
+                            ]
+                        }
+                    },
+                    "geojson": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                2.2366511277,
+                                48.8923258498
+                            ],
+                            [
+                                2.236725,
+                                48.892442
+                            ],
+                            [
+                                2.236809,
+                                48.892418
+                            ],
+                            [
+                                2.236827,
+                                48.892443
+                            ],
+                            [
+                                2.236853,
+                                48.892476
+                            ],
+                            [
+                                2.236984,
+                                48.892422
+                            ],
+                            [
+                                2.237032,
+                                48.892409
+                            ],
+                            [
+                                2.237064,
+                                48.892404
+                            ],
+                            [
+                                2.237095,
+                                48.892405
+                            ],
+                            [
+                                2.237136,
+                                48.892411
+                            ],
+                            [
+                                2.237313,
+                                48.892445
+                            ],
+                            [
+                                2.237407,
+                                48.892474
+                            ],
+                            [
+                                2.237497,
+                                48.892497
+                            ],
+                            [
+                                2.237534,
+                                48.892516
+                            ],
+                            [
+                                2.237599,
+                                48.892491
+                            ],
+                            [
+                                2.237743,
+                                48.892441
+                            ],
+                            [
+                                2.2376400054,
+                                48.8923102839
+                            ]
+                        ],
+                        "properties": [
+                            {
+                                "length": 85
+                            }
+                        ]
+                    },
+                    "mode": "walking",
+                    "type": "street_network",
+                    "links": [],
+                    "path": [
+                        {
+                            "length": 14,
+                            "name": "",
+                            "duration": 16,
+                            "direction": 0,
+                            "instruction": "Marchez vers l'est sur l'allée. Continuez sur 13 m.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.236725",
+                                "lat": "48.892442"
+                            }
+                        },
+                        {
+                            "length": 45,
+                            "name": "",
+                            "duration": 52,
+                            "direction": 93,
+                            "instruction": "Tournez à droite dans l'allée. Continuez sur 45 m.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.236853",
+                                "lat": "48.89247599999999"
+                            }
+                        },
+                        {
+                            "length": 7,
+                            "name": "",
+                            "duration": 6,
+                            "direction": 4,
+                            "instruction": "Continuez. Continuez sur 7 m.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.237407",
+                                "lat": "48.892474"
+                            }
+                        },
+                        {
+                            "length": 3,
+                            "name": "",
+                            "duration": 3,
+                            "direction": -17,
+                            "instruction": "Continuez sur l'allée. Continuez sur 3 m.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.237497",
+                                "lat": "48.892497"
+                            }
+                        },
+                        {
+                            "length": 5,
+                            "name": "",
+                            "duration": 4,
+                            "direction": 68,
+                            "instruction": "Tournez à droite dans l'allée. Continuez sur 5 m.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.237534",
+                                "lat": "48.892516"
+                            }
+                        },
+                        {
+                            "length": 12,
+                            "name": "Axe de la Défense",
+                            "duration": 11,
+                            "direction": -2,
+                            "instruction": "Continuez sur Axe de la Défense. Continuez sur 12 m.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.237599",
+                                "lat": "48.892491"
+                            }
+                        },
+                        {
+                            "length": 0,
+                            "name": "",
+                            "duration": 0,
+                            "direction": 0,
+                            "instruction": "Votre destination est sur la droite.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.237743",
+                                "lat": "48.892441"
+                            }
+                        },
+                        {
+                            "length": 57,
+                            "name": "salle des Colonnes",
+                            "duration": 73,
+                            "direction": 0,
+                            "instruction": "Accédez à La Défense (Puteaux) via salle des Colonnes.",
+                            "via_uri": "access_point:IDFM:StopPlaceEntrance:50148547"
+                        }
+                    ],
+                    "vias": [
+                        {
+                            "id": "access_point:IDFM:StopPlaceEntrance:50148547",
+                            "name": "salle des Colonnes",
+                            "access_point": {
+                                "id": "access_point:IDFM:StopPlaceEntrance:50148547",
+                                "name": "salle des Colonnes",
+                                "coord": {
+                                    "lon": "2.23764000536301",
+                                    "lat": "48.89231028394773"
+                                },
+                                "access_point_code": "8",
+                                "embedded_type": "pt_access_point"
+                            },
+                            "is_entrance": true,
+                            "is_exit": true,
+                            "length": 57,
+                            "traversal_time": 73,
+                            "pathway_mode": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "section_0_0_1",
+                    "duration": 1146,
+                    "co2_emission": {
+                        "value": 81.3364448365,
+                        "unit": "gEC"
+                    },
+                    "departure_date_time": "20250424T091104",
+                    "arrival_date_time": "20250424T093010",
+                    "base_departure_date_time": "20250424T091104",
+                    "base_arrival_date_time": "20250424T093010",
+                    "data_freshness": "base_schedule",
+                    "to": {
+                        "id": "stop_point:IDFM:monomodalStopPlace:46647",
+                        "name": "Achères Ville (Achères)",
+                        "quality": 0,
+                        "stop_point": {
+                            "id": "stop_point:IDFM:monomodalStopPlace:46647",
+                            "name": "Achères Ville",
+                            "codes": [
+                                {
+                                    "type": "netex_monomodal_stopplace",
+                                    "value": "monomodalStopPlace:46647"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "41528"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "471010"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473017"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "monomodalStopPlace:46647"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::monomodalStopPlace:46647:FR1"
+                                }
+                            ],
+                            "label": "Achères Ville (Achères)",
+                            "coord": {
+                                "lon": "2.077726524656543",
+                                "lat": "48.97064357081442"
+                            },
+                            "links": [],
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:fr:78005",
+                                    "name": "Achères",
+                                    "level": 8,
+                                    "zip_code": "78260",
+                                    "label": "Achères (78260)",
+                                    "insee": "78005",
+                                    "coord": {
+                                        "lon": "2.0698106",
+                                        "lat": "48.9606321"
+                                    }
+                                }
+                            ],
+                            "stop_area": {
+                                "id": "stop_area:IDFM:73604",
+                                "name": "Achères Ville",
+                                "codes": [
+                                    {
+                                        "type": "TN_PA",
+                                        "value": "96"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::multimodalStopPlace:73604:FR1"
+                                    }
+                                ],
+                                "timezone": "Europe/Paris",
+                                "label": "Achères Ville (Achères)",
+                                "coord": {
+                                    "lon": "2.076937738142633",
+                                    "lat": "48.97006331864526"
+                                },
+                                "links": []
+                            },
+                            "equipments": [
+                                "has_wheelchair_boarding"
+                            ],
+                            "address": {
+                                "id": "2.0777265246565433;48.970643570814424",
+                                "name": "Rue Camille Jenatzy",
+                                "house_number": 2,
+                                "coord": {
+                                    "lon": "2.077726524656543",
+                                    "lat": "48.97064357081442"
+                                },
+                                "label": "2 Rue Camille Jenatzy (Achères)"
+                            },
+                            "fare_zone": {
+                                "name": "5"
+                            }
+                        },
+                        "embedded_type": "stop_point"
+                    },
+                    "from": {
+                        "id": "stop_point:IDFM:monomodalStopPlace:470549",
+                        "name": "La Défense (Puteaux)",
+                        "quality": 0,
+                        "stop_point": {
+                            "id": "stop_point:IDFM:monomodalStopPlace:470549",
+                            "name": "La Défense",
+                            "codes": [
+                                {
+                                    "type": "netex_monomodal_stopplace",
+                                    "value": "monomodalStopPlace:470549"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "40951"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "470974"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "472137"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "472283"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473934"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473935"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473936"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473937"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "484165"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "484166"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "monomodalStopPlace:470549"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::monomodalStopPlace:470549:FR1"
+                                }
+                            ],
+                            "label": "La Défense (Puteaux)",
+                            "coord": {
+                                "lon": "2.238418596250407",
+                                "lat": "48.89222980156821"
+                            },
+                            "links": [],
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:fr:92062",
+                                    "name": "Puteaux",
+                                    "level": 8,
+                                    "zip_code": "92800",
+                                    "label": "Puteaux (92800)",
+                                    "insee": "92062",
+                                    "coord": {
+                                        "lon": "2.2368863",
+                                        "lat": "48.8841522"
+                                    }
+                                }
+                            ],
+                            "stop_area": {
+                                "id": "stop_area:IDFM:71517",
+                                "name": "La Défense",
+                                "codes": [
+                                    {
+                                        "type": "TN_PA",
+                                        "value": "252"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::multimodalStopPlace:71517:FR1"
+                                    }
+                                ],
+                                "timezone": "Europe/Paris",
+                                "label": "La Défense (Puteaux)",
+                                "coord": {
+                                    "lon": "2.239764201537217",
+                                    "lat": "48.89161331499386"
+                                },
+                                "links": []
+                            },
+                            "equipments": [
+                                "has_wheelchair_boarding"
+                            ],
+                            "address": {
+                                "id": "2.238418596250407;48.892229801568206",
+                                "name": "Parvis de la Défense",
+                                "house_number": 2,
+                                "coord": {
+                                    "lon": "2.238418596250407",
+                                    "lat": "48.89222980156821"
+                                },
+                                "label": "2 Parvis de la Défense (Puteaux)"
+                            },
+                            "fare_zone": {
+                                "name": "3"
+                            }
+                        },
+                        "embedded_type": "stop_point"
+                    },
+                    "additional_informations": [
+                        "regular"
+                    ],
+                    "geojson": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                2.2384185963,
+                                48.8922298016
+                            ],
+                            [
+                                2.222986243,
+                                48.8958867731
+                            ],
+                            [
+                                2.1851757042,
+                                48.9203475791
+                            ],
+                            [
+                                2.1572200389,
+                                48.9376952936
+                            ],
+                            [
+                                2.1446722659,
+                                48.9457406075
+                            ],
+                            [
+                                2.0777265247,
+                                48.9706435708
+                            ]
+                        ],
+                        "properties": [
+                            {
+                                "length": 14788
+                            }
+                        ]
+                    },
+                    "type": "public_transport",
+                    "display_informations": {
+                        "commercial_mode": "RER",
+                        "network": "RER",
+                        "direction": "Cergy le Haut (Cergy)",
+                        "label": "A",
+                        "color": "EB2132",
+                        "code": "A",
+                        "headsign": "UZAR",
+                        "name": "A",
+                        "links": [
+                            {
+                                "templated": false,
+                                "rel": "disruptions",
+                                "internal": true,
+                                "type": "disruption",
+                                "id": "f0d44af4-2011-11f0-b0e8-0a58a9feac02"
+                            },
+                            {
+                                "templated": false,
+                                "rel": "disruptions",
+                                "internal": true,
+                                "type": "disruption",
+                                "id": "197096f0-203c-11f0-8a87-0a58a9feac02"
+                            },
+                            {
+                                "templated": false,
+                                "rel": "disruptions",
+                                "internal": true,
+                                "type": "disruption",
+                                "id": "64df3190-19f3-11f0-bb7e-0a58a9feac02"
+                            },
+                            {
+                                "templated": false,
+                                "rel": "disruptions",
+                                "internal": true,
+                                "type": "disruption",
+                                "id": "5db256e0-19f3-11f0-bb7e-0a58a9feac02"
+                            },
+                            {
+                                "templated": false,
+                                "rel": "terminus",
+                                "internal": true,
+                                "type": "stop_area",
+                                "id": "stop_area:IDFM:66834"
+                            }
+                        ],
+                        "text_color": "FFFFFF",
+                        "trip_short_name": "UZAR29",
+                        "description": "",
+                        "physical_mode": "RER",
+                        "equipments": [
+                            "has_wheelchair_accessibility",
+                            "has_air_conditioned"
+                        ]
+                    },
+                    "links": [
+                        {
+                            "type": "vehicle_journey",
+                            "id": "vehicle_journey:IDFM:TN:SNCF:4d4b534c-e539-4992-9090-32631347b955"
+                        },
+                        {
+                            "type": "line",
+                            "id": "line:IDFM:C01742"
+                        },
+                        {
+                            "type": "route",
+                            "id": "route:IDFM:SNCF:304bebe6-4754-3d8b-84f9-5b74c77e8ffa"
+                        },
+                        {
+                            "type": "commercial_mode",
+                            "id": "commercial_mode:RapidTransit"
+                        },
+                        {
+                            "type": "physical_mode",
+                            "id": "physical_mode:RapidTransit"
+                        },
+                        {
+                            "type": "network",
+                            "id": "network:IDFM:71"
+                        },
+                        {
+                            "templated": false,
+                            "rel": "tickets",
+                            "internal": true,
+                            "type": "ticket",
+                            "id": "ticket_1_1"
+                        }
+                    ],
+                    "stop_date_times": [
+                        {
+                            "departure_date_time": "20250424T091104",
+                            "base_departure_date_time": "20250424T091104",
+                            "arrival_date_time": "20250424T091009",
+                            "base_arrival_date_time": "20250424T091009",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:monomodalStopPlace:470549",
+                                "name": "La Défense",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:470549"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "40951"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "470974"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "472137"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "472283"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "473934"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "473935"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "473936"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "473937"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "484165"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "484166"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:470549"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::monomodalStopPlace:470549:FR1"
+                                    }
+                                ],
+                                "label": "La Défense (Puteaux)",
+                                "coord": {
+                                    "lon": "2.238418596250407",
+                                    "lat": "48.89222980156821"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.238418596250407;48.892229801568206",
+                                    "name": "Parvis de la Défense",
+                                    "house_number": 2,
+                                    "coord": {
+                                        "lon": "2.238418596250407",
+                                        "lat": "48.89222980156821"
+                                    },
+                                    "label": "2 Parvis de la Défense (Puteaux)"
+                                },
+                                "fare_zone": {
+                                    "name": "3"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T091450",
+                            "base_departure_date_time": "20250424T091450",
+                            "arrival_date_time": "20250424T091240",
+                            "base_arrival_date_time": "20250424T091240",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:monomodalStopPlace:43169",
+                                "name": "Nanterre Préfecture",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:43169"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "40916"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "474051"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "474052"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "474054"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "474057"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:43169"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::monomodalStopPlace:43169:FR1"
+                                    }
+                                ],
+                                "label": "Nanterre Préfecture (Nanterre)",
+                                "coord": {
+                                    "lon": "2.222986242991368",
+                                    "lat": "48.89588677306467"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.2229862429913676;48.895886773064674",
+                                    "name": "Esplanade Charles de Gaulle",
+                                    "house_number": 6,
+                                    "coord": {
+                                        "lon": "2.222986242991368",
+                                        "lat": "48.89588677306467"
+                                    },
+                                    "label": "6 Esplanade Charles de Gaulle (Nanterre)"
+                                },
+                                "fare_zone": {
+                                    "name": "3"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T091910",
+                            "base_departure_date_time": "20250424T091910",
+                            "arrival_date_time": "20250424T091840",
+                            "base_arrival_date_time": "20250424T091840",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:monomodalStopPlace:43082",
+                                "name": "Houilles - Carrières-sur-Seine",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:43082"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "411357"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "470891"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "471638"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "472203"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "472389"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "472409"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:43082"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::monomodalStopPlace:43082:FR1"
+                                    }
+                                ],
+                                "label": "Houilles - Carrières-sur-Seine (Houilles)",
+                                "coord": {
+                                    "lon": "2.185175704201871",
+                                    "lat": "48.92034757911033"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.1851757042018707;48.92034757911033",
+                                    "name": "Rue du 4 Septembre",
+                                    "house_number": 6,
+                                    "coord": {
+                                        "lon": "2.185175704201871",
+                                        "lat": "48.92034757911033"
+                                    },
+                                    "label": "6 Rue du 4 Septembre (Houilles)"
+                                },
+                                "fare_zone": {
+                                    "name": "4"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T092220",
+                            "base_departure_date_time": "20250424T092220",
+                            "arrival_date_time": "20250424T092150",
+                            "base_arrival_date_time": "20250424T092150",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:monomodalStopPlace:43191",
+                                "name": "Sartrouville",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:43191"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "411360"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "470846"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "471244"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "471763"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "472009"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "472440"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "480207"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:43191"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::monomodalStopPlace:43191:FR1"
+                                    }
+                                ],
+                                "label": "Sartrouville (Sartrouville)",
+                                "coord": {
+                                    "lon": "2.157220038850732",
+                                    "lat": "48.93769529363442"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.1572200388507317;48.93769529363442",
+                                    "name": "Rue Turgot",
+                                    "house_number": 4,
+                                    "coord": {
+                                        "lon": "2.157220038850732",
+                                        "lat": "48.93769529363442"
+                                    },
+                                    "label": "4 Rue Turgot (Sartrouville)"
+                                },
+                                "fare_zone": {
+                                    "name": "4"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T092420",
+                            "base_departure_date_time": "20250424T092420",
+                            "arrival_date_time": "20250424T092350",
+                            "base_arrival_date_time": "20250424T092350",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:monomodalStopPlace:473109",
+                                "name": "Maisons-Laffitte",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:473109"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "41527"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "470784"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "471617"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "471907"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "472928"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:473109"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::monomodalStopPlace:473109:FR1"
+                                    }
+                                ],
+                                "label": "Maisons-Laffitte (Maisons-Laffitte)",
+                                "coord": {
+                                    "lon": "2.144672265933885",
+                                    "lat": "48.94574060746957"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.1446722659338855;48.94574060746957",
+                                    "name": "Pont Jean Monnet",
+                                    "house_number": 0,
+                                    "coord": {
+                                        "lon": "2.144672265933885",
+                                        "lat": "48.94574060746957"
+                                    },
+                                    "label": "Pont Jean Monnet (Maisons-Laffitte)"
+                                },
+                                "fare_zone": {
+                                    "name": "4"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T093040",
+                            "base_departure_date_time": "20250424T093040",
+                            "arrival_date_time": "20250424T093010",
+                            "base_arrival_date_time": "20250424T093010",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:monomodalStopPlace:46647",
+                                "name": "Achères Ville",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:46647"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "41528"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "471010"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "473017"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:46647"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::monomodalStopPlace:46647:FR1"
+                                    }
+                                ],
+                                "label": "Achères Ville (Achères)",
+                                "coord": {
+                                    "lon": "2.077726524656543",
+                                    "lat": "48.97064357081442"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.0777265246565433;48.970643570814424",
+                                    "name": "Rue Camille Jenatzy",
+                                    "house_number": 2,
+                                    "coord": {
+                                        "lon": "2.077726524656543",
+                                        "lat": "48.97064357081442"
+                                    },
+                                    "label": "2 Rue Camille Jenatzy (Achères)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "id": "section_0_1_1",
+                    "duration": 192,
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": "gEC"
+                    },
+                    "transfer_type": "walking",
+                    "departure_date_time": "20250424T093010",
+                    "arrival_date_time": "20250424T093322",
+                    "to": {
+                        "id": "stop_point:IDFM:473025",
+                        "name": "Achères Ville (Achères)",
+                        "quality": 0,
+                        "stop_point": {
+                            "id": "stop_point:IDFM:473025",
+                            "name": "Achères Ville",
+                            "codes": [
+                                {
+                                    "type": "netex_monomodal_stopplace",
+                                    "value": "monomodalStopPlace:470535"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "34867"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "34868"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "34973"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "35087"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "35090"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473025"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "monomodalStopPlace:470535"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::Quay:473025:FR1"
+                                }
+                            ],
+                            "label": "Achères Ville (Achères)",
+                            "coord": {
+                                "lon": "2.077342313654105",
+                                "lat": "48.96997200647565"
+                            },
+                            "links": [],
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:fr:78005",
+                                    "name": "Achères",
+                                    "level": 8,
+                                    "zip_code": "78260",
+                                    "label": "Achères (78260)",
+                                    "insee": "78005",
+                                    "coord": {
+                                        "lon": "2.0698106",
+                                        "lat": "48.9606321"
+                                    }
+                                }
+                            ],
+                            "stop_area": {
+                                "id": "stop_area:IDFM:73604",
+                                "name": "Achères Ville",
+                                "codes": [
+                                    {
+                                        "type": "TN_PA",
+                                        "value": "96"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::multimodalStopPlace:73604:FR1"
+                                    }
+                                ],
+                                "timezone": "Europe/Paris",
+                                "label": "Achères Ville (Achères)",
+                                "coord": {
+                                    "lon": "2.076937738142633",
+                                    "lat": "48.97006331864526"
+                                },
+                                "links": []
+                            },
+                            "equipments": [
+                                "has_wheelchair_boarding"
+                            ],
+                            "address": {
+                                "id": "2.077342313654105;48.96997200647565",
+                                "name": "Rue Jean Moulin",
+                                "house_number": 14,
+                                "coord": {
+                                    "lon": "2.077342313654105",
+                                    "lat": "48.96997200647565"
+                                },
+                                "label": "14 Rue Jean Moulin (Achères)"
+                            },
+                            "fare_zone": {
+                                "name": "5"
+                            }
+                        },
+                        "embedded_type": "stop_point"
+                    },
+                    "from": {
+                        "id": "stop_point:IDFM:monomodalStopPlace:46647",
+                        "name": "Achères Ville (Achères)",
+                        "quality": 0,
+                        "stop_point": {
+                            "id": "stop_point:IDFM:monomodalStopPlace:46647",
+                            "name": "Achères Ville",
+                            "codes": [
+                                {
+                                    "type": "netex_monomodal_stopplace",
+                                    "value": "monomodalStopPlace:46647"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "41528"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "471010"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473017"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "monomodalStopPlace:46647"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::monomodalStopPlace:46647:FR1"
+                                }
+                            ],
+                            "label": "Achères Ville (Achères)",
+                            "coord": {
+                                "lon": "2.077726524656543",
+                                "lat": "48.97064357081442"
+                            },
+                            "links": [],
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:fr:78005",
+                                    "name": "Achères",
+                                    "level": 8,
+                                    "zip_code": "78260",
+                                    "label": "Achères (78260)",
+                                    "insee": "78005",
+                                    "coord": {
+                                        "lon": "2.0698106",
+                                        "lat": "48.9606321"
+                                    }
+                                }
+                            ],
+                            "stop_area": {
+                                "id": "stop_area:IDFM:73604",
+                                "name": "Achères Ville",
+                                "codes": [
+                                    {
+                                        "type": "TN_PA",
+                                        "value": "96"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::multimodalStopPlace:73604:FR1"
+                                    }
+                                ],
+                                "timezone": "Europe/Paris",
+                                "label": "Achères Ville (Achères)",
+                                "coord": {
+                                    "lon": "2.076937738142633",
+                                    "lat": "48.97006331864526"
+                                },
+                                "links": []
+                            },
+                            "equipments": [
+                                "has_wheelchair_boarding"
+                            ],
+                            "address": {
+                                "id": "2.0777265246565433;48.970643570814424",
+                                "name": "Rue Camille Jenatzy",
+                                "house_number": 2,
+                                "coord": {
+                                    "lon": "2.077726524656543",
+                                    "lat": "48.97064357081442"
+                                },
+                                "label": "2 Rue Camille Jenatzy (Achères)"
+                            },
+                            "fare_zone": {
+                                "name": "5"
+                            },
+                            "access_points": [
+                                {
+                                    "id": "access_point:IDFM:StopPlaceEntrance:50170421",
+                                    "name": "Entrée / Sortie",
+                                    "access_point": {
+                                        "id": "access_point:IDFM:StopPlaceEntrance:50170421",
+                                        "name": "Entrée / Sortie",
+                                        "coord": {
+                                            "lon": "2.077409006043657",
+                                            "lat": "48.97006244839049"
+                                        },
+                                        "embedded_type": "pt_access_point"
+                                    },
+                                    "is_entrance": true,
+                                    "is_exit": true,
+                                    "length": 68,
+                                    "traversal_time": 87,
+                                    "pathway_mode": 1
+                                },
+                                {
+                                    "id": "access_point:IDFM:StopPlaceEntrance:50170333",
+                                    "name": "Entrée / Sortie",
+                                    "access_point": {
+                                        "id": "access_point:IDFM:StopPlaceEntrance:50170333",
+                                        "name": "Entrée / Sortie",
+                                        "coord": {
+                                            "lon": "2.077872409697459",
+                                            "lat": "48.97011996956903"
+                                        },
+                                        "embedded_type": "pt_access_point"
+                                    },
+                                    "is_entrance": true,
+                                    "is_exit": true,
+                                    "length": 59,
+                                    "traversal_time": 75,
+                                    "pathway_mode": 1
+                                }
+                            ]
+                        },
+                        "embedded_type": "stop_point"
+                    },
+                    "geojson": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                2.077409006,
+                                48.9700624484
+                            ],
+                            [
+                                2.077405,
+                                48.970084
+                            ],
+                            [
+                                2.077405,
+                                48.970084
+                            ],
+                            [
+                                2.0773423137,
+                                48.9699720065
+                            ]
+                        ],
+                        "properties": [
+                            {
+                                "length": 79
+                            }
+                        ]
+                    },
+                    "mode": "walking",
+                    "type": "transfer",
+                    "links": [],
+                    "path": [
+                        {
+                            "length": 68,
+                            "name": "Entrée / Sortie",
+                            "duration": 87,
+                            "direction": 0,
+                            "instruction": "Sortez de Achères Ville (Achères) via Entrée / Sortie.",
+                            "via_uri": "access_point:IDFM:StopPlaceEntrance:50170421"
+                        },
+                        {
+                            "length": 0,
+                            "name": "",
+                            "duration": 0,
+                            "direction": 0,
+                            "instruction": "Marchez vers le nord sur l'allée. Continuez sur 0 m.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.077405",
+                                "lat": "48.970084"
+                            }
+                        },
+                        {
+                            "length": 0,
+                            "name": "",
+                            "duration": 0,
+                            "direction": 0,
+                            "instruction": "Vous êtes arrivé à votre destination.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.077405",
+                                "lat": "48.970084"
+                            }
+                        }
+                    ],
+                    "vias": [
+                        {
+                            "id": "access_point:IDFM:StopPlaceEntrance:50170421",
+                            "name": "Entrée / Sortie",
+                            "access_point": {
+                                "id": "access_point:IDFM:StopPlaceEntrance:50170421",
+                                "name": "Entrée / Sortie",
+                                "coord": {
+                                    "lon": "2.077409006043657",
+                                    "lat": "48.97006244839049"
+                                },
+                                "embedded_type": "pt_access_point"
+                            },
+                            "is_entrance": true,
+                            "is_exit": true,
+                            "length": 68,
+                            "traversal_time": 87,
+                            "pathway_mode": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "section_0_2_1",
+                    "duration": 518,
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": "gEC"
+                    },
+                    "departure_date_time": "20250424T093322",
+                    "arrival_date_time": "20250424T094200",
+                    "type": "waiting",
+                    "links": []
+                },
+                {
+                    "id": "section_0_3_1",
+                    "duration": 660,
+                    "co2_emission": {
+                        "value": 280.2238751102,
+                        "unit": "gEC"
+                    },
+                    "departure_date_time": "20250424T094200",
+                    "arrival_date_time": "20250424T095300",
+                    "base_departure_date_time": "20250424T094200",
+                    "base_arrival_date_time": "20250424T095300",
+                    "data_freshness": "base_schedule",
+                    "to": {
+                        "id": "stop_point:IDFM:35020",
+                        "name": "Lycée Charles de Gaulle (Poissy)",
+                        "quality": 0,
+                        "stop_point": {
+                            "id": "stop_point:IDFM:35020",
+                            "name": "Lycée Charles de Gaulle",
+                            "codes": [
+                                {
+                                    "type": "netex_monomodal_stopplace",
+                                    "value": "monomodalStopPlace:43840"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "35020"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "monomodalStopPlace:43840"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::Quay:35020:FR1"
+                                }
+                            ],
+                            "label": "Lycée Charles de Gaulle (Poissy)",
+                            "coord": {
+                                "lon": "2.062996954773349",
+                                "lat": "48.94739627107769"
+                            },
+                            "links": [],
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:fr:78498",
+                                    "name": "Poissy",
+                                    "level": 8,
+                                    "zip_code": "78300",
+                                    "label": "Poissy (78300)",
+                                    "insee": "78498",
+                                    "coord": {
+                                        "lon": "2.0428293",
+                                        "lat": "48.927439"
+                                    }
+                                }
+                            ],
+                            "stop_area": {
+                                "id": "stop_area:IDFM:65064",
+                                "name": "Lycée Charles de Gaulle",
+                                "codes": [
+                                    {
+                                        "type": "source",
+                                        "value": "FR::multimodalStopPlace:65064:FR1"
+                                    }
+                                ],
+                                "timezone": "Europe/Paris",
+                                "label": "Lycée Charles de Gaulle (Poissy)",
+                                "coord": {
+                                    "lon": "2.062996954773349",
+                                    "lat": "48.94739627107769"
+                                },
+                                "links": []
+                            },
+                            "equipments": [],
+                            "address": {
+                                "id": "2.062996954773349;48.94739627107769",
+                                "name": "Rue Gustave Eiffel",
+                                "house_number": 1,
+                                "coord": {
+                                    "lon": "2.062996954773349",
+                                    "lat": "48.94739627107769"
+                                },
+                                "label": "1 Rue Gustave Eiffel (Poissy)"
+                            },
+                            "fare_zone": {
+                                "name": "5"
+                            }
+                        },
+                        "embedded_type": "stop_point"
+                    },
+                    "from": {
+                        "id": "stop_point:IDFM:473025",
+                        "name": "Achères Ville (Achères)",
+                        "quality": 0,
+                        "stop_point": {
+                            "id": "stop_point:IDFM:473025",
+                            "name": "Achères Ville",
+                            "codes": [
+                                {
+                                    "type": "netex_monomodal_stopplace",
+                                    "value": "monomodalStopPlace:470535"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "34867"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "34868"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "34973"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "35087"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "35090"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "473025"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "monomodalStopPlace:470535"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::Quay:473025:FR1"
+                                }
+                            ],
+                            "label": "Achères Ville (Achères)",
+                            "coord": {
+                                "lon": "2.077342313654105",
+                                "lat": "48.96997200647565"
+                            },
+                            "links": [],
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:fr:78005",
+                                    "name": "Achères",
+                                    "level": 8,
+                                    "zip_code": "78260",
+                                    "label": "Achères (78260)",
+                                    "insee": "78005",
+                                    "coord": {
+                                        "lon": "2.0698106",
+                                        "lat": "48.9606321"
+                                    }
+                                }
+                            ],
+                            "stop_area": {
+                                "id": "stop_area:IDFM:73604",
+                                "name": "Achères Ville",
+                                "codes": [
+                                    {
+                                        "type": "TN_PA",
+                                        "value": "96"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::multimodalStopPlace:73604:FR1"
+                                    }
+                                ],
+                                "timezone": "Europe/Paris",
+                                "label": "Achères Ville (Achères)",
+                                "coord": {
+                                    "lon": "2.076937738142633",
+                                    "lat": "48.97006331864526"
+                                },
+                                "links": []
+                            },
+                            "equipments": [
+                                "has_wheelchair_boarding"
+                            ],
+                            "address": {
+                                "id": "2.077342313654105;48.96997200647565",
+                                "name": "Rue Jean Moulin",
+                                "house_number": 14,
+                                "coord": {
+                                    "lon": "2.077342313654105",
+                                    "lat": "48.96997200647565"
+                                },
+                                "label": "14 Rue Jean Moulin (Achères)"
+                            },
+                            "fare_zone": {
+                                "name": "5"
+                            }
+                        },
+                        "embedded_type": "stop_point"
+                    },
+                    "additional_informations": [
+                        "regular"
+                    ],
+                    "geojson": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                2.0773423137,
+                                48.9699720065
+                            ],
+                            [
+                                2.0718962539,
+                                48.9674479438
+                            ],
+                            [
+                                2.0682099679,
+                                48.9650722045
+                            ],
+                            [
+                                2.064806352,
+                                48.9621859496
+                            ],
+                            [
+                                2.0634960755,
+                                48.9598645278
+                            ],
+                            [
+                                2.0659552281,
+                                48.955252311
+                            ],
+                            [
+                                2.064268512,
+                                48.9533686075
+                            ],
+                            [
+                                2.0622672561,
+                                48.9515183885
+                            ],
+                            [
+                                2.0629969548,
+                                48.9473962711
+                            ]
+                        ],
+                        "properties": [
+                            {
+                                "length": 3045
+                            }
+                        ]
+                    },
+                    "type": "public_transport",
+                    "display_informations": {
+                        "commercial_mode": "Bus",
+                        "network": "Cergy-Pontoise Confluence",
+                        "direction": "Chambre de Commerce et d'Industrie (Poissy)",
+                        "label": "1222",
+                        "color": "0055C8",
+                        "code": "1222",
+                        "headsign": "Chambre de Commerce et d'Industrie",
+                        "name": "1222",
+                        "links": [
+                            {
+                                "templated": false,
+                                "rel": "disruptions",
+                                "internal": true,
+                                "type": "disruption",
+                                "id": "2f831774-0020-11f0-b375-0a58a9feac02"
+                            },
+                            {
+                                "templated": false,
+                                "rel": "terminus",
+                                "internal": true,
+                                "type": "stop_area",
+                                "id": "stop_area:IDFM:65079"
+                            }
+                        ],
+                        "text_color": "FFFFFF",
+                        "trip_short_name": "Chambre de Commerce et d'Industrie",
+                        "description": "",
+                        "physical_mode": "Bus",
+                        "equipments": []
+                    },
+                    "links": [
+                        {
+                            "type": "vehicle_journey",
+                            "id": "vehicle_journey:IDFM:FSO:187355-C01674-5046-260"
+                        },
+                        {
+                            "type": "line",
+                            "id": "line:IDFM:C01674"
+                        },
+                        {
+                            "type": "route",
+                            "id": "route:IDFM:stif:local-187356-C01674-83"
+                        },
+                        {
+                            "type": "commercial_mode",
+                            "id": "commercial_mode:Bus"
+                        },
+                        {
+                            "type": "physical_mode",
+                            "id": "physical_mode:Bus"
+                        },
+                        {
+                            "type": "network",
+                            "id": "network:IDFM:1082"
+                        },
+                        {
+                            "templated": false,
+                            "rel": "tickets",
+                            "internal": true,
+                            "type": "ticket",
+                            "id": "ticket_2_1"
+                        }
+                    ],
+                    "stop_date_times": [
+                        {
+                            "departure_date_time": "20250424T094200",
+                            "base_departure_date_time": "20250424T094200",
+                            "arrival_date_time": "20250424T094200",
+                            "base_arrival_date_time": "20250424T094200",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:473025",
+                                "name": "Achères Ville",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:470535"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34867"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34868"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34973"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "35087"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "35090"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "473025"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:470535"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::Quay:473025:FR1"
+                                    }
+                                ],
+                                "label": "Achères Ville (Achères)",
+                                "coord": {
+                                    "lon": "2.077342313654105",
+                                    "lat": "48.96997200647565"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.077342313654105;48.96997200647565",
+                                    "name": "Rue Jean Moulin",
+                                    "house_number": 14,
+                                    "coord": {
+                                        "lon": "2.077342313654105",
+                                        "lat": "48.96997200647565"
+                                    },
+                                    "label": "14 Rue Jean Moulin (Achères)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [
+                                "pick_up_only"
+                            ],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T094400",
+                            "base_departure_date_time": "20250424T094400",
+                            "arrival_date_time": "20250424T094400",
+                            "base_arrival_date_time": "20250424T094400",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:34974",
+                                "name": "Jules Verne",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:54514"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34974"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34975"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:54514"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::Quay:34974:FR1"
+                                    }
+                                ],
+                                "label": "Jules Verne (Achères)",
+                                "coord": {
+                                    "lon": "2.071896253877371",
+                                    "lat": "48.96744794384707"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.071896253877371;48.96744794384707",
+                                    "name": "Avenue Maurice Thorez",
+                                    "house_number": 41,
+                                    "coord": {
+                                        "lon": "2.071896253877371",
+                                        "lat": "48.96744794384707"
+                                    },
+                                    "label": "41 Avenue Maurice Thorez (Achères)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T094500",
+                            "base_departure_date_time": "20250424T094500",
+                            "arrival_date_time": "20250424T094500",
+                            "base_arrival_date_time": "20250424T094500",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:34976",
+                                "name": "Foyer des Jeunes",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:46785"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34976"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34977"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:46785"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::Quay:34976:FR1"
+                                    }
+                                ],
+                                "label": "Foyer des Jeunes (Achères)",
+                                "coord": {
+                                    "lon": "2.06820996788495",
+                                    "lat": "48.96507220447093"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.06820996788495;48.96507220447093",
+                                    "name": "Avenue Maurice Thorez",
+                                    "house_number": 2,
+                                    "coord": {
+                                        "lon": "2.06820996788495",
+                                        "lat": "48.96507220447093"
+                                    },
+                                    "label": "2 Avenue Maurice Thorez (Achères)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T094600",
+                            "base_departure_date_time": "20250424T094600",
+                            "arrival_date_time": "20250424T094600",
+                            "base_arrival_date_time": "20250424T094600",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:34980",
+                                "name": "Jean Jaurès",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:54512"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34980"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34981"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:54512"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::Quay:34980:FR1"
+                                    }
+                                ],
+                                "label": "Jean Jaurès (Achères)",
+                                "coord": {
+                                    "lon": "2.064806352014227",
+                                    "lat": "48.96218594962392"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.0648063520142266;48.962185949623915",
+                                    "name": "Avenue Lénine",
+                                    "house_number": 20,
+                                    "coord": {
+                                        "lon": "2.064806352014227",
+                                        "lat": "48.96218594962392"
+                                    },
+                                    "label": "20 Avenue Lénine (Achères)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T094700",
+                            "base_departure_date_time": "20250424T094700",
+                            "arrival_date_time": "20250424T094700",
+                            "base_arrival_date_time": "20250424T094700",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:35101",
+                                "name": "Centre Social",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:54507"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34982"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34983"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "35101"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "35102"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:54507"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::Quay:35101:FR1"
+                                    }
+                                ],
+                                "label": "Centre Social (Achères)",
+                                "coord": {
+                                    "lon": "2.063496075540903",
+                                    "lat": "48.95986452781952"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.063496075540903;48.95986452781952",
+                                    "name": "Allée des Bouvreuils",
+                                    "house_number": 3,
+                                    "coord": {
+                                        "lon": "2.063496075540903",
+                                        "lat": "48.95986452781952"
+                                    },
+                                    "label": "3 Allée des Bouvreuils (Achères)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T094900",
+                            "base_departure_date_time": "20250424T094900",
+                            "arrival_date_time": "20250424T094900",
+                            "base_arrival_date_time": "20250424T094900",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:34869",
+                                "name": "Les Routiers",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:46646"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34869"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "35008"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:46646"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::Quay:34869:FR1"
+                                    }
+                                ],
+                                "label": "Les Routiers (Achères)",
+                                "coord": {
+                                    "lon": "2.06595522807183",
+                                    "lat": "48.95525231101255"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.06595522807183;48.95525231101255",
+                                    "name": "Avenue de Poissy",
+                                    "house_number": 72,
+                                    "coord": {
+                                        "lon": "2.06595522807183",
+                                        "lat": "48.95525231101255"
+                                    },
+                                    "label": "72 Avenue de Poissy (Achères)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T095000",
+                            "base_departure_date_time": "20250424T095000",
+                            "arrival_date_time": "20250424T095000",
+                            "base_arrival_date_time": "20250424T095000",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:35002",
+                                "name": "Croix Rompue",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:54510"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "35002"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "35057"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:54510"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::Quay:35002:FR1"
+                                    }
+                                ],
+                                "label": "Croix Rompue (Achères)",
+                                "coord": {
+                                    "lon": "2.064268511951119",
+                                    "lat": "48.95336860754219"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.0642685119511186;48.95336860754219",
+                                    "name": "Avenue de Poissy",
+                                    "house_number": 100,
+                                    "coord": {
+                                        "lon": "2.064268511951119",
+                                        "lat": "48.95336860754219"
+                                    },
+                                    "label": "100 Avenue de Poissy (Achères)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T095100",
+                            "base_departure_date_time": "20250424T095100",
+                            "arrival_date_time": "20250424T095100",
+                            "base_arrival_date_time": "20250424T095100",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:34991",
+                                "name": "Chêne Feuillu",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:54508"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34990"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "34991"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:54508"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::Quay:34991:FR1"
+                                    }
+                                ],
+                                "label": "Chêne Feuillu (Achères)",
+                                "coord": {
+                                    "lon": "2.062267256061091",
+                                    "lat": "48.95151838848792"
+                                },
+                                "links": [],
+                                "equipments": [
+                                    "has_wheelchair_boarding"
+                                ],
+                                "address": {
+                                    "id": "2.062267256061091;48.95151838848792",
+                                    "name": "Avenue de Poissy",
+                                    "house_number": 132,
+                                    "coord": {
+                                        "lon": "2.062267256061091",
+                                        "lat": "48.95151838848792"
+                                    },
+                                    "label": "132 Avenue de Poissy (Achères)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        },
+                        {
+                            "departure_date_time": "20250424T095300",
+                            "base_departure_date_time": "20250424T095300",
+                            "arrival_date_time": "20250424T095300",
+                            "base_arrival_date_time": "20250424T095300",
+                            "stop_point": {
+                                "id": "stop_point:IDFM:35020",
+                                "name": "Lycée Charles de Gaulle",
+                                "codes": [
+                                    {
+                                        "type": "netex_monomodal_stopplace",
+                                        "value": "monomodalStopPlace:43840"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "35020"
+                                    },
+                                    {
+                                        "type": "netex_zder_quay",
+                                        "value": "monomodalStopPlace:43840"
+                                    },
+                                    {
+                                        "type": "source",
+                                        "value": "FR::Quay:35020:FR1"
+                                    }
+                                ],
+                                "label": "Lycée Charles de Gaulle (Poissy)",
+                                "coord": {
+                                    "lon": "2.062996954773349",
+                                    "lat": "48.94739627107769"
+                                },
+                                "links": [],
+                                "equipments": [],
+                                "address": {
+                                    "id": "2.062996954773349;48.94739627107769",
+                                    "name": "Rue Gustave Eiffel",
+                                    "house_number": 1,
+                                    "coord": {
+                                        "lon": "2.062996954773349",
+                                        "lat": "48.94739627107769"
+                                    },
+                                    "label": "1 Rue Gustave Eiffel (Poissy)"
+                                },
+                                "fare_zone": {
+                                    "name": "5"
+                                }
+                            },
+                            "additional_informations": [],
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "id": "oLFFcsoyV7WcSXcqthfzka_1",
+                    "duration": 97,
+                    "co2_emission": {
+                        "value": 0.0,
+                        "unit": "gEC"
+                    },
+                    "departure_date_time": "20250424T095300",
+                    "arrival_date_time": "20250424T095437",
+                    "to": {
+                        "id": "2.062037;48.94682",
+                        "name": "10 Rue Gustave Eiffel (Poissy)",
+                        "quality": 0,
+                        "embedded_type": "address",
+                        "address": {
+                            "id": "2.062037;48.94682",
+                            "coord": {
+                                "lon": "2.0620244126996594",
+                                "lat": "48.946813146880004"
+                            },
+                            "house_number": 10,
+                            "label": "10 Rue Gustave Eiffel (Poissy)",
+                            "name": "10 Rue Gustave Eiffel",
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:osm:relation:7457",
+                                    "insee": "78",
+                                    "name": "Yvelines",
+                                    "label": "Yvelines",
+                                    "level": 6,
+                                    "coord": {
+                                        "lon": "2.1266886",
+                                        "lat": "48.803540299999995"
+                                    },
+                                    "zip_code": null
+                                },
+                                {
+                                    "id": "admin:osm:relation:8649",
+                                    "insee": "11",
+                                    "name": "Île-de-France",
+                                    "label": "Île-de-France",
+                                    "level": 4,
+                                    "coord": {
+                                        "lon": "2.3483915",
+                                        "lat": "48.8534951"
+                                    },
+                                    "zip_code": null
+                                },
+                                {
+                                    "id": "admin:osm:relation:2202162",
+                                    "insee": "",
+                                    "name": "France",
+                                    "label": "France",
+                                    "level": 2,
+                                    "coord": {
+                                        "lon": "2.3483915",
+                                        "lat": "48.8534951"
+                                    },
+                                    "zip_code": null
+                                },
+                                {
+                                    "id": "admin:fr:78498",
+                                    "insee": "78498",
+                                    "name": "Poissy",
+                                    "label": "Poissy (78300)",
+                                    "level": 8,
+                                    "coord": {
+                                        "lon": "2.0426301",
+                                        "lat": "48.9274192"
+                                    },
+                                    "zip_code": "78300"
+                                }
+                            ]
+                        }
+                    },
+                    "from": {
+                        "id": "stop_point:IDFM:35020",
+                        "name": "Lycée Charles de Gaulle (Poissy)",
+                        "quality": 0,
+                        "stop_point": {
+                            "id": "stop_point:IDFM:35020",
+                            "name": "Lycée Charles de Gaulle",
+                            "codes": [
+                                {
+                                    "type": "netex_monomodal_stopplace",
+                                    "value": "monomodalStopPlace:43840"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "35020"
+                                },
+                                {
+                                    "type": "netex_zder_quay",
+                                    "value": "monomodalStopPlace:43840"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::Quay:35020:FR1"
+                                }
+                            ],
+                            "label": "Lycée Charles de Gaulle (Poissy)",
+                            "coord": {
+                                "lon": "2.062996954773349",
+                                "lat": "48.94739627107769"
+                            },
+                            "links": [],
+                            "administrative_regions": [
+                                {
+                                    "id": "admin:fr:78498",
+                                    "name": "Poissy",
+                                    "level": 8,
+                                    "zip_code": "78300",
+                                    "label": "Poissy (78300)",
+                                    "insee": "78498",
+                                    "coord": {
+                                        "lon": "2.0428293",
+                                        "lat": "48.927439"
+                                    }
+                                }
+                            ],
+                            "stop_area": {
+                                "id": "stop_area:IDFM:65064",
+                                "name": "Lycée Charles de Gaulle",
+                                "codes": [
+                                    {
+                                        "type": "source",
+                                        "value": "FR::multimodalStopPlace:65064:FR1"
+                                    }
+                                ],
+                                "timezone": "Europe/Paris",
+                                "label": "Lycée Charles de Gaulle (Poissy)",
+                                "coord": {
+                                    "lon": "2.062996954773349",
+                                    "lat": "48.94739627107769"
+                                },
+                                "links": []
+                            },
+                            "equipments": [],
+                            "address": {
+                                "id": "2.062996954773349;48.94739627107769",
+                                "name": "Rue Gustave Eiffel",
+                                "house_number": 1,
+                                "coord": {
+                                    "lon": "2.062996954773349",
+                                    "lat": "48.94739627107769"
+                                },
+                                "label": "1 Rue Gustave Eiffel (Poissy)"
+                            },
+                            "fare_zone": {
+                                "name": "5"
+                            }
+                        },
+                        "embedded_type": "stop_point"
+                    },
+                    "geojson": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                2.0629969548,
+                                48.9473962711
+                            ],
+                            [
+                                2.063181,
+                                48.947305
+                            ],
+                            [
+                                2.063111,
+                                48.947247
+                            ],
+                            [
+                                2.062988,
+                                48.947239
+                            ],
+                            [
+                                2.062947,
+                                48.947155
+                            ],
+                            [
+                                2.062836,
+                                48.947074
+                            ],
+                            [
+                                2.062754,
+                                48.947034
+                            ],
+                            [
+                                2.062565,
+                                48.94704
+                            ],
+                            [
+                                2.062176,
+                                48.946728
+                            ],
+                            [
+                                2.0620244127,
+                                48.9468131469
+                            ]
+                        ],
+                        "properties": [
+                            {
+                                "length": 105
+                            }
+                        ]
+                    },
+                    "mode": "walking",
+                    "type": "street_network",
+                    "links": [],
+                    "path": [
+                        {
+                            "length": 61,
+                            "name": "",
+                            "duration": 62,
+                            "direction": 0,
+                            "instruction": "Marchez vers le sud-est. Continuez sur 60 m.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.063181",
+                                "lat": "48.947305"
+                            }
+                        },
+                        {
+                            "length": 45,
+                            "name": "",
+                            "duration": 36,
+                            "direction": -54,
+                            "instruction": "Tournez à gauche dans l'allée. Continuez sur 45 m.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.062565",
+                                "lat": "48.94704"
+                            }
+                        },
+                        {
+                            "length": 0,
+                            "name": "",
+                            "duration": 0,
+                            "direction": 0,
+                            "instruction": "Vous êtes arrivé à votre destination.",
+                            "instruction_start_coordinate": {
+                                "lon": "2.062176",
+                                "lat": "48.946728"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                {
+                    "href": "https://api-idfm.navitia.io/v1/coverage/idfm/journeys?datetime=20250424T090818&datetime_represents=departure&from=2.2366511276612218%3B48.892325849792655&max_bike_duration_to_pt=0&max_bss_duration_to_pt=0&max_car_duration_to_pt=0&max_duration_to_pt=600&max_ridesharing_duration_to_pt=0&timeframe-duration=900&to=2.0620244126996594%3B48.946813146880004&walking_speed=1.1111111111111112&first_section_mode%5B%5D=walking&last_section_mode%5B%5D=walking&min_nb_transfers=1&direct_path=none&min_nb_journeys=5&is_journey_schedules=True&allowed_id%5B%5D=stop_point%3AIDFM%3AmonomodalStopPlace%3A470549&allowed_id%5B%5D=stop_point%3AIDFM%3A473025&allowed_id%5B%5D=stop_point%3AIDFM%3A35020&allowed_id%5B%5D=stop_point%3AIDFM%3AmonomodalStopPlace%3A46647",
+                    "templated": false,
+                    "rel": "same_journey_schedules",
+                    "type": "journeys"
+                },
+                {
+                    "href": "https://api-idfm.navitia.io/v1/coverage/idfm/journeys?datetime=20250424T090818&datetime_represents=departure&from=2.2366511276612218%3B48.892325849792655&max_bike_duration_to_pt=0&max_bss_duration_to_pt=0&max_car_duration_to_pt=0&max_duration_to_pt=600&max_ridesharing_duration_to_pt=0&timeframe-duration=900&to=2.0620244126996594%3B48.946813146880004&walking_speed=1.1111111111111112&first_section_mode%5B%5D=walking&last_section_mode%5B%5D=walking&min_nb_transfers=1&direct_path=none&min_nb_journeys=1&is_journey_schedules=True&allowed_id%5B%5D=stop_point%3AIDFM%3AmonomodalStopPlace%3A470549&allowed_id%5B%5D=stop_point%3AIDFM%3A473025&allowed_id%5B%5D=stop_point%3AIDFM%3A35020&allowed_id%5B%5D=stop_point%3AIDFM%3AmonomodalStopPlace%3A46647&count=1",
+                    "templated": false,
+                    "rel": "this_journey",
+                    "type": "journeys"
+                }
+            ]
+        }
+    ],
+    "tickets": [
+        {
+            "id": "ticket_1_1",
+            "name": "Ticket Metro Train RER",
+            "comment": "",
+            "found": true,
+            "cost": {
+                "value": "250.0",
+                "currency": "centime"
+            },
+            "links": [
+                {
+                    "templated": false,
+                    "rel": "sections",
+                    "internal": true,
+                    "type": "section",
+                    "id": "section_0_0_1"
+                }
+            ],
+            "source_id": "OD250"
+        },
+        {
+            "id": "ticket_2_1",
+            "name": "Ticket Bus Tram",
+            "comment": "",
+            "found": true,
+            "cost": {
+                "value": "200.0",
+                "currency": "centime"
+            },
+            "links": [
+                {
+                    "templated": false,
+                    "rel": "sections",
+                    "internal": true,
+                    "type": "section",
+                    "id": "section_0_3_1"
+                }
+            ],
+            "source_id": "tickett"
+        }
+    ],
+    "disruptions": [
+        {
+            "id": "2f831774-0020-11f0-b375-0a58a9feac02",
+            "disruption_id": "2f7fd168-0020-11f0-b375-0a58a9feac02",
+            "impact_id": "2f831774-0020-11f0-b375-0a58a9feac02",
+            "application_periods": [
+                {
+                    "begin": "20250303T030500",
+                    "end": "20250706T235500"
+                }
+            ],
+            "status": "active",
+            "updated_at": "20250313T163108",
+            "tags": [
+                "Actualité"
+            ],
+            "cause": "information",
+            "category": "Communication",
+            "severity": {
+                "name": "information",
+                "effect": "OTHER_EFFECT",
+                "color": "#43B77A",
+                "priority": 60
+            },
+            "messages": [
+                {
+                    "text": "Réseau Cergy-Pontoise Confluence : A partir du 3 mars 2025 - Adaptation des horaires sur l'ensemble des lignes du réseau",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "d9dbc5a6-7a06-11e8-8b8c-005056a44da2",
+                        "name": "titre",
+                        "types": [
+                            "title"
+                        ]
+                    }
+                },
+                {
+                    "text": "A partir du 3 mars 2025 - Adaptation des horaires sur l'ensemble des lignes du réseau",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "17eac900-7a07-11e8-a990-005056a47b86",
+                        "name": "notification",
+                        "types": [
+                            "notification"
+                        ]
+                    }
+                },
+                {
+                    "text": "<p>A partir du 3 mars 2025<br>Adaptation des horaires</p><p><br>Suite au mouvement social ayant eu lieu du 7 novembre 2024 au 10 mars 2025, l'offre de transport restera temporairement adaptée pour garantir vos déplacements sur l'ensemble du territoire.</p><p><br>Vous pouvez consulter les fiches horaires sur le site internet pour trouver le détail des départs assurés sur vos lignes ainsi que le compte X@CPConflu_IDFM.</p>",
+                    "channel": {
+                        "content_type": "text/html",
+                        "id": "3ae8df3e-7488-11e8-ac3b-005056a47b86",
+                        "name": "moteur",
+                        "types": [
+                            "web"
+                        ]
+                    }
+                }
+            ],
+            "impacted_objects": [
+                {
+                    "pt_object": {
+                        "id": "IDFM:1082",
+                        "name": "Cergy-Pontoise Confluence",
+                        "quality": 0,
+                        "network": {
+                            "id": "network:IDFM:1082",
+                            "name": "Cergy-Pontoise Confluence",
+                            "links": [],
+                            "codes": [
+                                {
+                                    "type": "source",
+                                    "value": "FR1:Network:1082:LOC"
+                                }
+                            ]
+                        },
+                        "embedded_type": "network"
+                    }
+                }
+            ],
+            "uri": "2f831774-0020-11f0-b375-0a58a9feac02",
+            "disruption_uri": "2f7fd168-0020-11f0-b375-0a58a9feac02",
+            "contributor": "shortterm.tr_idfm"
+        },
+        {
+            "id": "5db256e0-19f3-11f0-bb7e-0a58a9feac02",
+            "disruption_id": "faa82500-0c07-11f0-b7af-0a58a9feac02",
+            "impact_id": "5db256e0-19f3-11f0-bb7e-0a58a9feac02",
+            "application_periods": [
+                {
+                    "begin": "20250328T200753",
+                    "end": "20260328T200753"
+                }
+            ],
+            "status": "active",
+            "updated_at": "20250415T141549",
+            "tags": [
+                "Ascenseur"
+            ],
+            "cause": "perturbation",
+            "category": "Incidents",
+            "severity": {
+                "name": "perturbée",
+                "effect": "SIGNIFICANT_DELAYS",
+                "color": "#EF662F",
+                "priority": 30
+            },
+            "messages": [
+                {
+                    "text": "Panne d'un ascenseur",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "d9dbc5a6-7a06-11e8-8b8c-005056a44da2",
+                        "name": "titre",
+                        "types": [
+                            "title"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne de l'ascenseur situé Couloir T2 quai central Correspondance, jusqu'au 2025-04-21",
+                    "channel": {
+                        "content_type": "text/html",
+                        "id": "3ae8df3e-7488-11e8-ac3b-005056a47b86",
+                        "name": "moteur",
+                        "types": [
+                            "web"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne de l'ascenseur situé Couloir T2 quai central Correspondance, jusqu'au 2025-04-21",
+                    "channel": {
+                        "content_type": "text/html",
+                        "id": "0c0c032e-7a07-11e8-ab20-005056a47b86",
+                        "name": "email ascenseur",
+                        "types": [
+                            "email"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne ascenseur jusqu'au 2025-04-21 situé Couloir T2 quai central Correspondance",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "ea77b9e2-7a06-11e8-ab20-005056a47b86",
+                        "name": "sms ascenseurs",
+                        "types": [
+                            "sms"
+                        ]
+                    }
+                }
+            ],
+            "impacted_objects": [
+                {
+                    "pt_object": {
+                        "id": "stop_area:IDFM:71517",
+                        "name": "La Défense (Puteaux)",
+                        "quality": 0,
+                        "stop_area": {
+                            "id": "stop_area:IDFM:71517",
+                            "name": "La Défense",
+                            "codes": [
+                                {
+                                    "type": "TN_PA",
+                                    "value": "252"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::multimodalStopPlace:71517:FR1"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "label": "La Défense (Puteaux)",
+                            "coord": {
+                                "lon": "2.239764",
+                                "lat": "48.891613"
+                            },
+                            "links": []
+                        },
+                        "embedded_type": "stop_area"
+                    }
+                }
+            ],
+            "uri": "5db256e0-19f3-11f0-bb7e-0a58a9feac02",
+            "disruption_uri": "faa82500-0c07-11f0-b7af-0a58a9feac02",
+            "contributor": "shortterm.tr_idfm"
+        },
+        {
+            "id": "64df3190-19f3-11f0-bb7e-0a58a9feac02",
+            "disruption_id": "02841eaa-0c08-11f0-88c2-0a58a9feac02",
+            "impact_id": "64df3190-19f3-11f0-bb7e-0a58a9feac02",
+            "application_periods": [
+                {
+                    "begin": "20250328T200807",
+                    "end": "20260328T200807"
+                }
+            ],
+            "status": "active",
+            "updated_at": "20250415T141600",
+            "tags": [
+                "Ascenseur"
+            ],
+            "cause": "perturbation",
+            "category": "Incidents",
+            "severity": {
+                "name": "perturbée",
+                "effect": "SIGNIFICANT_DELAYS",
+                "color": "#EF662F",
+                "priority": 30
+            },
+            "messages": [
+                {
+                    "text": "Panne d'un ascenseur",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "d9dbc5a6-7a06-11e8-8b8c-005056a44da2",
+                        "name": "titre",
+                        "types": [
+                            "title"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne de l'ascenseur situé Couloir T2 quai central Correspondance, jusqu'au 2025-04-21",
+                    "channel": {
+                        "content_type": "text/html",
+                        "id": "3ae8df3e-7488-11e8-ac3b-005056a47b86",
+                        "name": "moteur",
+                        "types": [
+                            "web"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne de l'ascenseur situé Couloir T2 quai central Correspondance, jusqu'au 2025-04-21",
+                    "channel": {
+                        "content_type": "text/html",
+                        "id": "0c0c032e-7a07-11e8-ab20-005056a47b86",
+                        "name": "email ascenseur",
+                        "types": [
+                            "email"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne ascenseur jusqu'au 2025-04-21 situé Couloir T2 quai central Correspondance",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "ea77b9e2-7a06-11e8-ab20-005056a47b86",
+                        "name": "sms ascenseurs",
+                        "types": [
+                            "sms"
+                        ]
+                    }
+                }
+            ],
+            "impacted_objects": [
+                {
+                    "pt_object": {
+                        "id": "stop_area:IDFM:71517",
+                        "name": "La Défense (Puteaux)",
+                        "quality": 0,
+                        "stop_area": {
+                            "id": "stop_area:IDFM:71517",
+                            "name": "La Défense",
+                            "codes": [
+                                {
+                                    "type": "TN_PA",
+                                    "value": "252"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::multimodalStopPlace:71517:FR1"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "label": "La Défense (Puteaux)",
+                            "coord": {
+                                "lon": "2.239764",
+                                "lat": "48.891613"
+                            },
+                            "links": []
+                        },
+                        "embedded_type": "stop_area"
+                    }
+                }
+            ],
+            "uri": "64df3190-19f3-11f0-bb7e-0a58a9feac02",
+            "disruption_uri": "02841eaa-0c08-11f0-88c2-0a58a9feac02",
+            "contributor": "shortterm.tr_idfm"
+        },
+        {
+            "id": "197096f0-203c-11f0-8a87-0a58a9feac02",
+            "disruption_id": "bef8ed1c-2009-11f0-9e35-0a58a9feac02",
+            "impact_id": "197096f0-203c-11f0-8a87-0a58a9feac02",
+            "application_periods": [
+                {
+                    "begin": "20250423T081057",
+                    "end": "20260423T081057"
+                }
+            ],
+            "status": "active",
+            "updated_at": "20250423T141134",
+            "tags": [
+                "Ascenseur"
+            ],
+            "cause": "perturbation",
+            "category": "Incidents",
+            "severity": {
+                "name": "perturbée",
+                "effect": "SIGNIFICANT_DELAYS",
+                "color": "#EF662F",
+                "priority": 30
+            },
+            "messages": [
+                {
+                    "text": "LA DEFENSE Panne de l'ascenseur situé Couloir RER A Correspondance, jusqu'au 2025-04-23",
+                    "channel": {
+                        "content_type": "text/html",
+                        "id": "0c0c032e-7a07-11e8-ab20-005056a47b86",
+                        "name": "email ascenseur",
+                        "types": [
+                            "email"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne de l'ascenseur situé Couloir RER A Correspondance, jusqu'au 2025-04-23",
+                    "channel": {
+                        "content_type": "text/html",
+                        "id": "3ae8df3e-7488-11e8-ac3b-005056a47b86",
+                        "name": "moteur",
+                        "types": [
+                            "web"
+                        ]
+                    }
+                },
+                {
+                    "text": "Panne d'un ascenseur",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "d9dbc5a6-7a06-11e8-8b8c-005056a44da2",
+                        "name": "titre",
+                        "types": [
+                            "title"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne ascenseur jusqu'au 2025-04-23 situé Couloir RER A Correspondance",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "ea77b9e2-7a06-11e8-ab20-005056a47b86",
+                        "name": "sms ascenseurs",
+                        "types": [
+                            "sms"
+                        ]
+                    }
+                }
+            ],
+            "impacted_objects": [
+                {
+                    "pt_object": {
+                        "id": "stop_area:IDFM:71517",
+                        "name": "La Défense (Puteaux)",
+                        "quality": 0,
+                        "stop_area": {
+                            "id": "stop_area:IDFM:71517",
+                            "name": "La Défense",
+                            "codes": [
+                                {
+                                    "type": "TN_PA",
+                                    "value": "252"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::multimodalStopPlace:71517:FR1"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "label": "La Défense (Puteaux)",
+                            "coord": {
+                                "lon": "2.239764",
+                                "lat": "48.891613"
+                            },
+                            "links": []
+                        },
+                        "embedded_type": "stop_area"
+                    }
+                }
+            ],
+            "uri": "197096f0-203c-11f0-8a87-0a58a9feac02",
+            "disruption_uri": "bef8ed1c-2009-11f0-9e35-0a58a9feac02",
+            "contributor": "shortterm.tr_idfm"
+        },
+        {
+            "id": "f0d44af4-2011-11f0-b0e8-0a58a9feac02",
+            "disruption_id": "f0cb57be-dcaf-11ef-aa1a-0a58a9feac02",
+            "impact_id": "f0d44af4-2011-11f0-b0e8-0a58a9feac02",
+            "application_periods": [
+                {
+                    "begin": "20250127T140919",
+                    "end": "20260127T140919"
+                }
+            ],
+            "status": "active",
+            "updated_at": "20250423T090947",
+            "tags": [
+                "Ascenseur"
+            ],
+            "cause": "perturbation",
+            "category": "Incidents",
+            "severity": {
+                "name": "perturbée",
+                "effect": "SIGNIFICANT_DELAYS",
+                "color": "#EF662F",
+                "priority": 30
+            },
+            "messages": [
+                {
+                    "text": "Panne d'un ascenseur",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "d9dbc5a6-7a06-11e8-8b8c-005056a44da2",
+                        "name": "titre",
+                        "types": [
+                            "title"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne de l'ascenseur situé Salle d'accès zone SNCF Sud et Ouest <> Tête Quais 2/B, direction Ouest, jusqu'au 2025-04-25",
+                    "channel": {
+                        "content_type": "text/html",
+                        "id": "3ae8df3e-7488-11e8-ac3b-005056a47b86",
+                        "name": "moteur",
+                        "types": [
+                            "web"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne de l'ascenseur situé Salle d'accès zone SNCF Sud et Ouest <> Tête Quais 2/B, direction Ouest, jusqu'au 2025-04-25",
+                    "channel": {
+                        "content_type": "text/html",
+                        "id": "0c0c032e-7a07-11e8-ab20-005056a47b86",
+                        "name": "email ascenseur",
+                        "types": [
+                            "email"
+                        ]
+                    }
+                },
+                {
+                    "text": "LA DEFENSE Panne ascenseur jusqu'au 2025-04-25 situé Salle d'accès zone SNCF Sud et Ouest <> Tête Quais 2/B, dir. Ouest",
+                    "channel": {
+                        "content_type": "text/plain",
+                        "id": "ea77b9e2-7a06-11e8-ab20-005056a47b86",
+                        "name": "sms ascenseurs",
+                        "types": [
+                            "sms"
+                        ]
+                    }
+                }
+            ],
+            "impacted_objects": [
+                {
+                    "pt_object": {
+                        "id": "stop_area:IDFM:71517",
+                        "name": "La Défense (Puteaux)",
+                        "quality": 0,
+                        "stop_area": {
+                            "id": "stop_area:IDFM:71517",
+                            "name": "La Défense",
+                            "codes": [
+                                {
+                                    "type": "TN_PA",
+                                    "value": "252"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::multimodalStopPlace:71517:FR1"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "label": "La Défense (Puteaux)",
+                            "coord": {
+                                "lon": "2.239764",
+                                "lat": "48.891613"
+                            },
+                            "links": []
+                        },
+                        "embedded_type": "stop_area"
+                    }
+                }
+            ],
+            "uri": "f0d44af4-2011-11f0-b0e8-0a58a9feac02",
+            "disruption_uri": "f0cb57be-dcaf-11ef-aa1a-0a58a9feac02",
+            "contributor": "shortterm.tr_idfm"
+        }
+    ],
+    "terminus": [
+        {
+            "id": "stop_area:IDFM:66834",
+            "name": "Cergy le Haut",
+            "codes": [
+                {
+                    "type": "TN_PA",
+                    "value": "62"
+                },
+                {
+                    "type": "source",
+                    "value": "FR::multimodalStopPlace:66834:FR1"
+                }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Cergy le Haut (Cergy)",
+            "coord": {
+                "lon": "2.010883213467724",
+                "lat": "49.04777728058803"
+            },
+            "links": []
+        },
+        {
+            "id": "stop_area:IDFM:65079",
+            "name": "Chambre de Commerce et d'Industrie",
+            "codes": [
+                {
+                    "type": "source",
+                    "value": "FR::multimodalStopPlace:65079:FR1"
+                }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Chambre de Commerce et d'Industrie (Poissy)",
+            "coord": {
+                "lon": "2.065171365619697",
+                "lat": "48.9479618257211"
+            },
+            "links": []
+        }
+    ],
+    "context": {
+        "car_direct_path": {
+            "co2_emission": {
+                "value": 3509.6487266347,
+                "unit": "gEC"
+            },
+            "air_pollutants": {
+                "unit": "g",
+                "values": {
+                    "nox": 6.1889,
+                    "pm": 0.7877
+                }
+            }
+        },
+        "current_datetime": "20250423T184538",
+        "timezone": "Europe/Paris"
+    },
+    "notes": [],
+    "exceptions": []
+}
